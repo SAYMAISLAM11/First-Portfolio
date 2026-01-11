@@ -22,6 +22,7 @@
 .section-heading{
     max-width: 827px;
     text-align: center;
+    margin: 0 auto;
 }
 .section-heading h2{
     font-size: 35px;
@@ -116,6 +117,7 @@ nav .manu{
     margin: 0 auto;
     text-align: center;
     color: FFF8F3;
+    background-color: #FFF8F3;
 }
 #about .about-container .about-info{
     display: flex;
@@ -131,4 +133,26 @@ nav .manu{
 }
 .about-info .info-card h4{
     font-size: 20px;
+}
+/* skills */
+#skills{
+    padding-top: 130px;
+}
+#skills .skills-container{
+    max-width: 1140px;
+    width: 71%;
+    margin: 0 auto;
+}
+#skills .skills-container .skill-box{
+    display: flex;
+    gap: 24px;
+
+}
+.skill-box .skill-card{
+    padding: 30px;
+    max-width: 247px;
+    box-shadow: 0px 6px 50px 0px black;
+}
+.skill-card img{
+    width: 44px;
 }
